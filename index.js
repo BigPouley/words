@@ -19,3 +19,5 @@ function findWord(word){
         throw 'Veuillez fournir un mot';
     }
 }
+
+module.exports = { findWord, getRandomWord }
